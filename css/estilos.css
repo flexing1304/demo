@@ -114,7 +114,7 @@ ul{
 .title__razerv2:hover{
     color: rgb(255, 255, 255);
 }
-.audio__razer{
+.audio__razer1{
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -124,6 +124,8 @@ ul{
     width: 100%;
     max-width: 500px;
     padding-bottom: 40px;
+    flex-direction: row;
+    display: flex;
    
     
     
@@ -342,7 +344,7 @@ background: linear-gradient(180deg, rgba(101,101,101,1) 0%, rgba(159,159,159,1) 
 /* Vidtas menores a 1024px */
 @media screen and (max-width : 1022px) {
     .body1 {
-        background-color: gray;
+        background-color: rgb(246, 0, 0);
     }
     .header__icono{
         display: none;
@@ -353,8 +355,14 @@ background: linear-gradient(180deg, rgba(101,101,101,1) 0%, rgba(159,159,159,1) 
 }
 
 @media screen and (max-width : 600px) {
+    *{
+        padding: 0%;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
     .body1 {
-        background-color: gray;
+        background-color: rgb(220, 240, 90);
     }
     .header{
         flex-direction: row;
@@ -414,23 +422,8 @@ background: linear-gradient(180deg, rgba(101,101,101,1) 0%, rgba(159,159,159,1) 
         flex-direction: column;
         gap: 2rem;
     }
-}
-.animaciones img{
-   animation-name: efecto;
-   animation-duration: 1.5s;
-   animation-iteration-count: infinite;
-   animation-delay: 1s;
-   animation-direction: alternate;
-   animation-timing-function: ease-out;
-}
-@keyframes efecto{
-    from {
-    opacity: 1;
-    transform: rotate(360deg);
+    .imagen1{
+        width: 100%;
     }
 
-    to {
-        opacity: 0;
-    }
-
-
+}
