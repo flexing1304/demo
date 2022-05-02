@@ -57,9 +57,7 @@ ul{
     align-items: center;
     
 }
-.imagen12{
-    
-}
+
 .hero__left{
     display: flex;
   
@@ -68,9 +66,6 @@ ul{
 .hero__right{
     
   color: rgb(0, 0, 0);
-}
-.hero__left img{
-   
 }
 .hero_title{
     font-size: 35px;
@@ -115,6 +110,7 @@ ul{
     color: green;
     transition: color .5s;
 }
+
 .title__razerv2:hover{
     color: rgb(255, 255, 255);
 }
@@ -127,6 +123,7 @@ ul{
 }
 .img__left .img__center .img__right{
     width: 25%;
+    
 }
 .img__center:hover
  {filter: opacity(.5);}
@@ -339,7 +336,71 @@ background: linear-gradient(180deg, rgba(101,101,101,1) 0%, rgba(159,159,159,1) 
     color: black;
     text-decoration: none;
 }
+.cont__kishi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    padding: 30px;
+}
+.sub__kishi{
+    color: white;
+    font-size: 30px;
 
+}
+.cont__phone{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.title__phone{
+    color: green;
+    transition: color .5s;
+    
+   
+}
+.anzu__img{
+    width: 100%;
+    padding-bottom: 30px;
+}
+.cont__anzu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+}
+.sub__anzu1{
+    color: white;
+}
+.title__anzu{
+    color: green;
+    transition: color .5s;
+}
+.title__anzu:hover{
+    color: white;
+}
+.title__phone:hover{
+    color: white;
+}
+.iframe__2{
+    width: 100%;
+}
+.title__kishi{
+    color: green;
+    transition: color .5s;
+    font-size: 60px;
+}
+.title__kishi:hover{
+    color: white;
+}
+.kishi__img{
+    width: 100%;
+}
 
 /* Desktop firns */
 /* max-width */
@@ -421,10 +482,6 @@ background: linear-gradient(180deg, rgba(101,101,101,1) 0%, rgba(159,159,159,1) 
         width: 100%;
     }
     /* Inicio side bar */
-
-    /* .nav{
-        display: none;
-    } */
     .header__icono{
         text-decoration: none;
     }
@@ -458,7 +515,7 @@ background: linear-gradient(180deg, rgba(101,101,101,1) 0%, rgba(159,159,159,1) 
 
     #sidebar:target{
         transform: translateX(0);
-        /* display: block; */
+        
     }
     .nav__item--oculto{
         display: block;
@@ -519,9 +576,4 @@ background: linear-gradient(180deg, rgba(101,101,101,1) 0%, rgba(159,159,159,1) 
         width: 600px;
         align-items: center;
     }
-
-
-  
-    
-
 }
